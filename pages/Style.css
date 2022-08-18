@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: rgba(200, 237, 15, 0.998);
+}
+#admin-box{
+  background-color: rgb(190, 173, 148); 
+text-align:center;
+width: 50%;
+margin: 20% auto;
+padding: 20px;
+border-radius:20px;
+ }
+ .admin-image{
+    width: 200px;
+ }
+ #admin-box h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: blue;
+
+ }
+ input,label{
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+ }
+ input{
+    background-color: rgb(190, 173, 148) ;
+    color: blue;
+    border: 2px solid blue;
+    border-radius:10px;
+ }
+ input::placeholder{
+   color: rgba(215, 11, 62, 0.998);
+ }
+ label{
+    font-size: 30px;
+    color:rgb(3, 100, 100);
+ }
+ p{
+    font-size: 25px;
+    color: beige;
+ }
+ p a{
+   text-decoration: none;
+   color: yellow;
+   text-transform: capitalize;
+ }
+ input[type="submit"]{
+   background-color: aqua; 
+   margin: 30px auto;
+   width: 20%;
+   border: '2px solid green';
+ }
+ input[type="submit"]:hover{
+   background-color:rgb(190, 173, 148); 
+   transition: ease-in-out 0.4s;
+ }
+ input:focus{
+   background-color: aqua;
+ }
